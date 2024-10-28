@@ -1,16 +1,16 @@
 ---
 layout: default
-title: 2.7.5 Riskboard Meeting
-parent: 2.7 Sprint 01
+title: 2.9.5 Riskboard Meeting
+parent: 2.9 Sprint 02
 grand_parent: 2. Projektorganisation
 nav_order: 5
 ---
 
-# 2.7.5 Riskboard Meeting
+# 2.9.5 Riskboard Meeting
 
 Im Riskboard Meeting wird über die aktuellen Risiken des Projekts. Betrachtet werden die anfänglichen Auswirkungen und Wahrscheinlichkeiten dieser Risiken und gefolgt von einer gründlichen Diskussion. Anschliessend schätzen die Teilnehmer des Riskboards das Risiko ein und planen entsprechende Gegenmassnahmen.
 
-![RiskBoard_SP01](../../../resources/images/RiskBoard_SP01.png)
+![RiskBoard_SP01](../../../resources/images/RiskBoard_SP02.png)
 
 | **Total Risks** | **Low Risks** | **Medium Risks** | **High Risks** |
 | :-------------: | ------------- | ---------------- | -------------- |
@@ -26,4 +26,4 @@ Da dies das erste Riskmeeting ist, wurden alle Risiken als neu betrachtet. Beson
 
 ## Update zu Risiken
 
-Da alle Risiken neu waren, gab es noch keine Updates.
+> TBD

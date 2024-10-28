@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 2.9 Sprint 03
-nav_order: 9
+title: 2.8 Sprint 01
+nav_order: 8
 parent: 2. Projektorganisation
 has_children: true
 ---
 
-# 2.9 Sprint 03
+# 2.8 Sprint 01
 
 {: .no_toc }

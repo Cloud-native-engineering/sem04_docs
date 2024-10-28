@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2.9.3 Sprint Review
-parent: 2.9 Sprint 03
+parent: 2.9 Sprint 02
 grand_parent: 2. Projektorganisation
 nav_order: 3
 ---
@@ -12,11 +12,11 @@ nav_order: 3
 
 | **Sprint Ziel** | **Status** |
 | --------------- | ---------- |
-| ??              | ??%        |
+| ???             | ??%        |
 
 ## Status Project Board
 
-![Burndown_Sprint03](../../../resources/images/Burndown_Sprint03.png)
+![Burndown_Sprint02](../../../resources/images/Burndown_Sprint02.png)
 
 | **Total Tickets** | **Abgeschlossene Tickets** | **Nicht abgeschlossene Tickets** | **Prozentsatz** |
 | :---------------: | -------------------------- | -------------------------------- | --------------- |
@@ -28,18 +28,16 @@ nav_order: 3
 
 ## Anpassungen am Projekt?
 
-Es werden keine Anpassungen am Projekt vorgenommen, da das Projekt beendet wird.
+> TBD
 
 ## Notizen / Anmerkungen
 
 > TBD
 
-Eine detaillierte Reflexion über die Semesterarbeit finden Sie [hier](../../07_fazit/index.md).
-
 ---
 
-- [GIT Repository Tag - Sprint03](https://github.com/Cloud-native-engineering/sem04_docs/releases/tag/sprint-03)
+- [GIT Repository Tag - Sprint02](https://github.com/Cloud-native-engineering/sem04_docs/releases/tag/sprint-02)
 - [Jira Board](https://itcne23.atlassian.net/jira/software/projects/CNC/boards/5)
-- [Jira Sprint Tickets](https://itcne23.atlassian.net/jira/software/projects/CNC/issues/CNC-31?jql=project%20%3D%20%22CNC%22%20AND%20sprint%20%3D%2012%20ORDER%20BY%20created%20DESC)
+- [Jira Sprint Tickets](https://itcne23.atlassian.net/jira/software/projects/CNC/issues/CNC-32?jql=project%20%3D%20%22CNC%22%20AND%20sprint%20IN%20%2810%2C%2011%29%20ORDER%20BY%20created%20DESC)
 - [Jira Epics](https://itcne23.atlassian.net/jira/software/projects/CNC/issues/CNC-32?jql=project%20%3D%20%22CNC%22%20AND%20sprint%20%3D%2010%20AND%20type%20%3D%20Epic%20ORDER%20BY%20created%20DESC)
 - [Jira Backlog](https://itcne23.atlassian.net/jira/software/projects/CNC/boards/5/backlog)

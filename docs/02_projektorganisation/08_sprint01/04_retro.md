@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2.8.4 Sprint Retro
-parent: 2.8 Sprint 02
+parent: 2.8 Sprint 01
 grand_parent: 2. Projektorganisation
 nav_order: 4
 ---

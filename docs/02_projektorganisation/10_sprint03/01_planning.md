@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 2.9.1 Sprint Planning
-parent: 2.9 Sprint 03
+title: 2.10.1 Sprint Planning
+parent: 2.10 Sprint 03
 grand_parent: 2. Projektorganisation
 nav_order: 1
 ---
 
-# 2.9.1 Sprint Planning
+# 2.10.1 Sprint Planning
 
 | **Sprint theme** | Hands-on-Projekte |
 | :--------------: | ----------------- |

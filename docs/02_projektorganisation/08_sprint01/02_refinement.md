@@ -12,4 +12,10 @@ Während dem Backlog Refinement wurde auf das Backlog geschaut, Ticket erstellt 
 
 Erledigte Arbeiten:
 
-> TBD
+- Erstellen von diversen Projektrisiken
+- Erstellen von Stories
+  - [CNC-68](https://itcne23.atlassian.net/browse/CNC-68) - Document ArgoCD
+  - [CNC-67](https://itcne23.atlassian.net/browse/CNC-67) - Deploy ArgoCD
+  - [CNC-69](https://itcne23.atlassian.net/browse/CNC-69) - Deploy Ingress
+  - [CNC-70](https://itcne23.atlassian.net/browse/CNC-70) - Deploy Cert-Manager
+- Informieren über ArgoCD

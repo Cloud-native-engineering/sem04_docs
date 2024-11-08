@@ -15,11 +15,15 @@ nav_order: 1
 
 ## Sprint Ziele
 
-> TBD
+- Sprint02 Administration
+- Setup K8s
+- Setup K8s Base
+- Setup ArgoCD
+- Setup Longhorn
 
 ## Scrum Board
 
 - [Jira Board](https://itcne23.atlassian.net/jira/software/projects/CNC/boards/5)
-- [Jira Sprint Tickets](https://itcne23.atlassian.net/jira/software/projects/CNC/issues/CNC-32?jql=project%20%3D%20%22CNC%22%20AND%20sprint%20IN%20%2810%2C%2011%29%20ORDER%20BY%20created%20DESC)
+- [Jira Sprint Tickets](https://itcne23.atlassian.net/jira/software/projects/CNC/issues/CNC-70?jql=project%20%3D%20%22CNC%22%20AND%20sprint%20%3D%2011%20ORDER%20BY%20created%20DESC)
 - [Jira Epics](https://itcne23.atlassian.net/jira/software/projects/CNC/issues/CNC-32?jql=project%20%3D%20%22CNC%22%20AND%20sprint%20%3D%2010%20AND%20type%20%3D%20Epic%20ORDER%20BY%20created%20DESC)
 - [Jira Backlog](https://itcne23.atlassian.net/jira/software/projects/CNC/boards/5/backlog)

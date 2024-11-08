@@ -22,23 +22,27 @@ nav_order: 3
 
 ## Status Project Board
 
-![Burndown_Sprint01](../../../resources/images/Burndown_Sprint01.png)
+![Burndown_Sprint01](../../../resources/images/burndown-sp01.png)
 
 | **Total Tickets** | **Abgeschlossene Tickets** | **Nicht abgeschlossene Tickets** | **Prozentsatz** |
 | :---------------: | -------------------------- | -------------------------------- | --------------- |
-|        ??         | ??                         | ??                               | ???%            |
+|        27         | 26                         | 1                                | 96.29%          |
 
 | **Total Storypoints** | **Abgeschlossene Storypoints** | **Nicht abgeschlossene Storypoints** | **Prozentsatz** |
 | :-------------------: | ------------------------------ | ------------------------------------ | --------------- |
-|          ??           | ??                             | ??                                   | ???%            |
+|         26.5          | 22.5                           | 4                                    | 84.90%          |
 
 ## Anpassungen am Projekt?
 
-> TBD
+Es werden keine Anpassungen am Projekt vorgenommen.
 
 ## Notizen / Anmerkungen
 
-> TBD
+Der Sprint 01 war sehr erfolgreich, da alle Sprintziele zu 96.29% erreicht wurden. Diese Ziele umfassten den Projektstart, die Erstellung eines RISK Boards, die Dokumentation des Projektmanagements, die Erstellung eines Service Designs, den Vergleich von Kubernetes mit NAS, die Definition der Kubernetes-Distribution und die Definition der Kubernetes-Speicherlösung.
+
+Das Projektboard zeigt, dass von insgesamt 27 Tickets 26 abgeschlossen wurden, was einer Erfolgsrate von 96.29% entspricht. Von den insgesamt 26.5 Storypoints wurden 22.5 abgeschlossen, was einer Erfolgsrate von 84.90% entspricht.
+
+Somit gab es nur ein nicht abgeschlossenes Ticket und einige nicht abgeschlossene Storypoints. Leider benötigte die Erstellung und Dokumentation des Service Design mehr Zeit als angenommen. Somit konnte leider noch nicht mit dem K8s setup gestartet werden. Dies ist jedoch nicht weiter schlimm und wird als Spillover im nächsten Sprint übernommen.
 
 ---
 

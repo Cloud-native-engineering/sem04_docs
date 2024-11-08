@@ -12,12 +12,14 @@ Im Sprint Retro wird über der vergangene Sprint repetiert. Es bietet die Mögli
 
 ## Keep / Beibehalten
 
-> TBD
+- Hohe Motivation und Lernbereitschaft im Team enthalten
+- Zeitnahes und kontinuierliches Arbeiten an den Tasks.
 
 ## Drop / Stopp
 
-> TBD
+- Im Planning wurde zu viel eingeplant. Mehr Zeit in das Pre-Planning investieren, um die Tickets besser schätzen zu können.
 
 ## Try / Ausprobieren
 
-> TBD
+- Einhohlen eines Feedback von den “Subject Matter Experts”, um das Wissen und die Fähigkeiten zu erweitern.
+  - Projektmanagement & Technischer-Fachexperte

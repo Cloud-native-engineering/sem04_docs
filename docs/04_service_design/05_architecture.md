@@ -31,14 +31,14 @@ Der [TuringPi 2](https://turingpi.com/) ist eine modulare Cluster-Plattform, die
 
 ## Kubernetes controlplane & worker
 
-In diesem Cluster sind alle Nodes als Worker konfiguriert. Die Control-Plane-Komponenten sind auf den Nodes `node01` und `node02` installiert, um eine hohe Verfügbarkeit zu gewährleisten.
+In diesem Cluster sind alle Nodes als Worker konfiguriert. Die Control-Plane-Komponenten sind auf den Nodes `node01`, `node02` und `node03` installiert, um eine hohe Verfügbarkeit zu gewährleisten. Damit die Control-Plane hochverfügbar ist, wird eine virtuelle IP verwendet, die zwischen den Control-Plane-Nodes aufgeteilt wird.
 
-| **Node**  | **Rolle**         |
-| --------- | ----------------- |
-| **node01**| Control-Plane, Worker |
-| **node02**| Control-Plane, Worker |
-| **node03**| Worker            |
-| **node04**| Worker            |
+| **Node**   | **Rolle**             |
+| ---------- | --------------------- |
+| **node01** | Control-Plane, Worker |
+| **node02** | Control-Plane, Worker |
+| **node03** | Control-Plane, Worker |
+| **node04** | Worker                |
 
 ## Logical Diagram
 
@@ -48,7 +48,7 @@ Das folgende Diagramm zeigt den hardwaretechnischen und physikalischen Aufbau de
 
 ## GitOps Flow
 
-Der GitOps-Flow beschreibt den Prozess, bei dem Änderungen am Code automatisch in die Produktionsumgebung übernommen werden. Entwickler nehmen Code-Änderungen vor und erstellen einen Pull Request im GitHub Repository. Nach einer erfolgreichen Code-Überprüfung wird der Code in den Main Branch gemerged. GitHub Actions übernimmt dann den Build-Prozess und stellt sicher, dass der Code fehlerfrei ist. ArgoCD synchronisiert automatisch den xwgewünschten Zustand aus dem Git-Repository mit dem Kubernetes-Cluster und stellt sicher, dass alle Änderungen konsistent und nachvollziehbar sind. Das ArgoCD Dashboard bietet eine Übersicht über den aktuellen Status und ermöglicht es Entwicklern, Feedback zu erhalten und den Zustand ihrer Anwendungen zu überwachen.
+Der GitOps-Flow beschreibt den Prozess, bei dem Änderungen am Code automatisch in die Produktionsumgebung übernommen werden. Entwickler nehmen Code-Änderungen vor und erstellen einen Pull Request im GitHub Repository. Nach einer erfolgreichen Code-Überprüfung wird der Code in den Main Branch gemerged. GitHub Actions übernimmt dann den Build-Prozess und stellt sicher, dass der Code fehlerfrei ist. ArgoCD synchronisiert automatisch den gewünschten Zustand aus dem Git-Repository mit dem Kubernetes-Cluster und stellt sicher, dass alle Änderungen konsistent und nachvollziehbar sind. Das ArgoCD Dashboard bietet eine Übersicht über den aktuellen Status und ermöglicht es Entwicklern, Feedback zu erhalten und den Zustand ihrer Anwendungen zu überwachen.
 
 ```mermaid
 flowchart TD;

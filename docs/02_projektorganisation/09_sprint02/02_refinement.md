@@ -12,4 +12,6 @@ Während dem Backlog Refinement wurde auf das Backlog geschaut, Ticket erstellt 
 
 Erledigte Arbeiten:
 
-> TBD
+- Neue Story:
+  - Erstellen einer Story für die Erstellung einer Dokumentation, da das Setup nun Cilium beinhaltet.
+  

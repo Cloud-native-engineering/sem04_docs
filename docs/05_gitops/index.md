@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 5. GitOps
-nav_order: 5
+title: 6. GitOps
+nav_order: 6
 has_children: true
 ---
 
-# 5. GitOps
+# 6. GitOps
 
 {: .no_toc }

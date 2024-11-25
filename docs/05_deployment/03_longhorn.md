@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 5.2 Longhorn
+title: 5.3 Longhorn
 parent: 5. Deployment
-nav_order: 2
+nav_order: 3
 ---
 
-# 5.2 Longhorn
+# 5.3 Longhorn
 
 Ich überlegte eine Weile, wie ich das Setup von Longhorn integrieren soll. Sollte es in den Installer des Clusters integriert werden oder mittels GitOps verwaltet werden?
 
@@ -40,3 +40,6 @@ kubectl apply -f https://github.com/Cloud-native-engineering/sem04_k8s/longhorn/
 ```bash
 argocd app sync longhorn
 ```
+
+## Backup
+

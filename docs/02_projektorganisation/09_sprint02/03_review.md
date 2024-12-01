@@ -10,29 +10,37 @@ nav_order: 3
 
 ## Review Sprint Ziele
 
-| **Sprint Ziel** | **Status** |
-| --------------- | ---------- |
-| ???             | ??%        |
+| **Sprint Ziel**         | **Status** |
+| ----------------------- | ---------- |
+| Sprint02 Administration | 100%       |
+| Setup K8s               | 97%        |
+| Setup K8s Base          | 100%       |
+| Setup ArgoCD            | 100%       |
+| Setup Longhorn          | 100%       |
 
 ## Status Project Board
 
-![Burndown_Sprint02](../../../resources/images/Burndown_Sprint02.png)
+![Burndown_Sprint02](../../../resources/images/burndown-sp02.png)
 
 | **Total Tickets** | **Abgeschlossene Tickets** | **Nicht abgeschlossene Tickets** | **Prozentsatz** |
 | :---------------: | -------------------------- | -------------------------------- | --------------- |
-|        ??         | ??                         | ??                               | ??%             |
+|        12         | 11                         | 1                                | 92%             |
 
 | **Total Storypoints** | **Abgeschlossene Storypoints** | **Nicht abgeschlossene Storypoints** | **Prozentsatz** |
 | :-------------------: | ------------------------------ | ------------------------------------ | --------------- |
-|          ??           | ??                             | ??                                   | ??%             |
+|         21.5          | 19.5                           | 2                                    | 90.7%           |
 
 ## Anpassungen am Projekt?
 
-> TBD
+Es Wurde entschieden, dass Longhorn-Setup auch via ArgoCD zu managen. Grund dazu war, einen zukünftigen Versionupgrade zu vereinfachen.
 
 ## Notizen / Anmerkungen
 
-> TBD
+Sprint 02 war äusserst erfolgreich, da fast alle Tickets abgeschlossen werden konnten. Obwohl es im Vergleich zum vorherigen Sprint weniger Tickets gab, umfasste Sprint 2 eine grössere Anzahl an Story-Punkten. Dieser Sprint war technisch anspruchsvoll und ermöglichte die Fertigstellung der Kubernetes-Clusterinstallation.
+
+Die Arbeiten begannen mit der Informationsbeschaffung über den Talos Kubernetes Cluster. Es musste viel recherchiert werden, da Talos ein unveränderliches Linux ist und keine Plugins mittels SSH installiert werden können. Daher musste im Base-Setup eine GitHub Actions Pipeline integriert werden, um das iSCSI-Plugin und die Kernel-Erweiterungen für die RK1 Compute-Module zu erstellen. Diese Pipeline erstellt ein OCI-Image und veröffentlicht es auf GitHub Packages, sodass der Cluster dieses Image als Quelle verwenden kann. Zusätzlich wurden viele Arbeiten für das Base-Setup erledigt, wie IP, DNS, VIP und Konnektivität.
+
+Es gab nur ein Spill-over. Der Cert-Manager konnte noch nicht installiert werden, da die Zeit nicht gereicht hat. Stattdessen wurde das Longhorn-Setup als Proof of Concept (POC) mit einer Demo-Applikation getestet. Dies war in der ursprünglichen Planung nicht vorgesehen, daher wurde diese Story in den nächsten Sprint verschoben.
 
 ---
 

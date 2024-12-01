@@ -12,12 +12,13 @@ Im Sprint Retro wird über der vergangene Sprint repetiert. Es bietet die Mögli
 
 ## Keep / Beibehalten
 
-> TBD
+- Sauberes und motiviertes Arbeiten
+- Hohe Qualität und viele neue Ideen
 
 ## Drop / Stopp
 
-> TBD
+- keine
 
 ## Try / Ausprobieren
 
-> TBD
+- Tailscale als Access-VPN Lösung

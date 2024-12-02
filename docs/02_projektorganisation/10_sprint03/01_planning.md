@@ -15,7 +15,12 @@ nav_order: 1
 
 ## Sprint Ziele
 
-> TBD
+- Sprint03 Administration
+- Finish K8s Setup
+- Setup Private Cloud (Nextcloud)
+- Setup Backup
+- Testing
+- Project Release
 
 ## Scrum Board
 

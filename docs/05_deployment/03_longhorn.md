@@ -41,5 +41,20 @@ kubectl apply -f https://github.com/Cloud-native-engineering/sem04_k8s/longhorn/
 argocd app sync longhorn
 ```
 
-## Backup
+## Datensicherung
 
+Um Daten im schlimmsten Fall zu schützen, ist es wichtig, im Voraus zu planen, wie mit potenziellem Datenverlust oder Datenkorruption durch Container-Updates umgegangen wird.
+
+### Snapshot
+
+Longhorn unterstützt Snapshots, die es ermöglichen, zu einem bestimmten Zeitpunkt zurückzukehren. Dies ist besonders nützlich, wenn Updates eingespielt werden.
+
+Die Snapshots können bequiem via UI oder API in Longhorn erstellt werden
+
+### Backup
+
+Ein CIFS-Share wurde als Backup-Speicher ausserhalb des Clusters eingerichtet. Longhorn integriert sich gut in dieses Setup, und Backups werden gemäss dem definierten Schema ausserhalb des K8s-Clusters gesichert. Die folgenden Schritte waren notwendig, um die Physical Volumes und das NFS-Backup einzurichten:
+
+#### SMB/CIFS Backupstore einrichten
+
+Die Dokumentation für das Setup kann direkt von den Hersteller Dokumentation herausgelesen werden: [Longhorn.io/snapshots-and-backups](https://longhorn.io/docs/1.7.2/snapshots-and-backups/backup-and-restore/set-backup-target/#set-up-smbcifs-backupstore)

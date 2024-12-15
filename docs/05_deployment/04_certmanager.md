@@ -32,7 +32,7 @@ stringData:
 3. ArgoCD Applikation hinzufügen:
 
 ```bash
-kubectl apply -f https://github.com/Cloud-native-engineering/sem04_k8s/cert-manager/cert-manager.yaml
+kubectl apply -f https://raw.githubusercontent.com/Cloud-native-engineering/sem04_k8s/refs/heads/main/cert-manager/cert-manager.yaml
 ```
 
 4. Sync ArgoCD Application `cert-manager`

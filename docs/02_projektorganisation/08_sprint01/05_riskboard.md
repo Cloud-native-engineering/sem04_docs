@@ -10,7 +10,7 @@ nav_order: 5
 
 Im Riskboard Meeting wird über die aktuellen Risiken des Projekts. Betrachtet werden die anfänglichen Auswirkungen und Wahrscheinlichkeiten dieser Risiken und gefolgt von einer gründlichen Diskussion. Anschliessend schätzen die Teilnehmer des Riskboards das Risiko ein und planen entsprechende Gegenmassnahmen.
 
-![RiskBoard_SP01](../../../resources/images/riskBoard_SP01.png)
+![RiskBoard_SP01](../../../resources/images/RiskBoard_SP01.png)
 
 | **Total Risks** | **Low Risks** | **Medium Risks** | **High Risks** |
 | :-------------: | ------------- | ---------------- | -------------- |

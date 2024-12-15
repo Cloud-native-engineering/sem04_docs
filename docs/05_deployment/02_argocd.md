@@ -28,6 +28,8 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 Der Ingress gehört nicht zu den grundlegenden Diensten und wird in einem späteren Schritt installiert, da der Cert Manager Zertifikate und Secrets beinhaltet. Um dennoch auf ArgoCD zugreifen zu können, kann ein Portforward eingerichtet werden:
 
+Weitere Informationen zur Installation und Konfiguration von Cert-Manager finden Sie in der [Cert-Manager Dokumentation](https://cert-manager.io/docs/).
+
 ```bash
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 ```

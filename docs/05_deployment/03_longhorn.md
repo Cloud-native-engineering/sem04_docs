@@ -32,7 +32,7 @@ kubectl config set-context --current --namespace=argocd
 3. Create the Longhorn Application custom resource.
 
 ```bash
-kubectl apply -f https://github.com/Cloud-native-engineering/sem04_k8s/longhorn/longhorn-application.yaml
+kubectl apply -f https://raw.githubusercontent.com/Cloud-native-engineering/sem04_k8s/refs/heads/main/longhorn/longhorn-application.yaml
 ```
 
 4. Deploy Longhorn with the configured settings. (The ingress will be created with the app sync)

@@ -9,7 +9,7 @@ nav_order: 7
 
 Gitea ist eine Open-Source-Software für Versionsverwaltung, die eine einfache, selbst gehostete Git-Service-Lösung bietet. Sie ermöglicht es Benutzern, Repositories zu erstellen, zu verwalten und mit anderen zu teilen. Gitea unterstützt Funktionen wie Issue-Tracking, Code-Review und Continuous Integration, um die Softwareentwicklung zu erleichtern.
 
-# Erstellung eines ArgoCD Projekts
+## Erstellung eines ArgoCD Projekts
 
 1. Setze den aktuellen Namespace auf argocd.
 

@@ -11,7 +11,7 @@ Nextcloud ist eine Open-Source-Software für Filehosting und Kollaboration, die 
 
 Es wurden zwei Deployment values.yaml definiert. Eines dient als Testinstanz, welche zum Beispiel für das Testen einer neuen Version verwendet werden kann und eine SQLite-Datenbank verwendet. Aber auch eine Produktionsinstanz, welche eine eigene PostgreSQL-Datenbank neben den Applikations-Pods hat.
 
-# Erstellung eines ArgoCD Projekts
+## Erstellung eines ArgoCD Projekts
 
 1. Setze den aktuellen Namespace auf argocd.
 

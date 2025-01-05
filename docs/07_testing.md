@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 6. Integrationstests
-nav_order: 6
+title: 7. Integrationstests
+nav_order: 7
 ---
 
-# 6. Integrationstests
+# 7. Integrationstests
 
 Um sicherzustellen, dass sämtliche Microservices in dieser Semesterarbeit zusammen funktionieren, werden Integrationstests durchgeführt. Diese Tests werden als manuelle Tests ausgeführt. Ziel dieser Tests ist es, die technische Funktionsfähigkeit des Kubernetes-Cluster zu bestätigen und zu demonstrieren, dass die festgelegten Ziele dieser Arbeit erreicht wurden. Im Rahmen dieser Tests wurden folgende Funktionalitäten überprüft:
 

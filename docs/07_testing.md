@@ -28,7 +28,7 @@ Um sicherzustellen, dass sämtliche Microservices in dieser Semesterarbeit zusam
 
 | Testfall-002  | longhorn_setup                                                                                                                                                                                                     |
 | :------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ziel:         | Longhorn ist installiert und es kann auf das UI zugegriffen werden.                                                                                                                                              |
+| Ziel:         | Longhorn ist installiert und es kann auf das UI zugegriffen werden.                                                                                                                                                |
 | Beschreibung: | Es soll ein Portworward geöffnet werden mit folgendem Befehl `kubectl port-forward svc/longhorn-frontend -n longhorn-system 8081:80 --insecure-skip-tls-verify` und nachher mit dem Browser auf die URL zugreiffen |
 | Soll-Wert:    | Das Longhorn UI wird angezeigt und es erscheinen keine Fehler                                                                                                                                                      |
 | Ist-Wert:     | Der Zugriff auf das UI klappt <br> <details><img src="../resources/images/testcases/test_002.png" alt="test-002"></details>                                                                                        |
@@ -71,12 +71,12 @@ Um sicherzustellen, dass sämtliche Microservices in dieser Semesterarbeit zusam
 
 ## Test-007 - Renovate Bot
 
-| Testfall-007                                                                                              | renovate                                                                                                                                        |
-| :-------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ziel: Der Renovate Bot eröffnet eine Pull-Request, wenn eine neue Version einer Helm-Chart verfügbar ist. |
-| Beschreibung:                                                                                             | Deployen einer alten Version von Nextcloud im K8s-Cluster via ArgoCD                                                                            |
-| Soll-Wert:                                                                                                | Ressourcen werden erstellt. Nach einiger Zeit eröffnet Renovate ein Pull-Request, mittels welchem er Changes mergen will mit den neuen Version. |
-| Ist-Wert:                                                                                                 | Renovate erstellt einen Pull-Request. <details><img src="../resources/images/testcases/test_007.png" alt="test-007"></details>                  |
+| Testfall-007  | renovate                                                                                                                                        |
+| :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ziel:         | Der Renovate Bot eröffnet eine Pull-Request, wenn eine neue Version einer Helm-Chart verfügbar ist.                                             |
+| Beschreibung: | Deployen einer alten Version von Nextcloud im K8s-Cluster via ArgoCD                                                                            |
+| Soll-Wert:    | Ressourcen werden erstellt. Nach einiger Zeit eröffnet Renovate ein Pull-Request, mittels welchem er Changes mergen will mit den neuen Version. |
+| Ist-Wert:     | Renovate erstellt einen Pull-Request. <details><img src="../resources/images/testcases/test_007.png" alt="test-007"></details>                  |
 
 ## Fazit
 

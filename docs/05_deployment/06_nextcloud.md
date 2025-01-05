@@ -35,5 +35,3 @@ kubectl apply -f https://raw.githubusercontent.com/Cloud-native-engineering/sem0
    2. INT: [nextcloud-int](https://github.com/Cloud-native-engineering/sem04_k8s/blob/main/nextcloud-int/README.md#secrets)
 
 4. Sync the ArgoCD Application (CLI or UI)
-
-## GitOps

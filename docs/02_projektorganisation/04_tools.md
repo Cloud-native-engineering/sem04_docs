@@ -29,7 +29,7 @@ Jedes Ticket hat folgende Werte gesetzt und definiert.
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | Assignees                                | Person, welche den Task umsetzt.                                                                      |
 | Status                                   | Status - Draft, Backlog, Todo, In Progress, Waiting, Done                                             |
-| Epic                                | Epic Ticket. Somit können Grosse Arbeiten zusammengefasst und in kleinen Schritten abarbeitet werden. |
+| Epic                                     | Epic Ticket. Somit können Grosse Arbeiten zusammengefasst und in kleinen Schritten abarbeitet werden. |
 | Linked pull requests / Repository Branch | Verlinkung mit GIT-Branches                                                                           |
 | Start Date                               | Datum - Start der Arbeiten                                                                            |
 | End Date                                 | Datum - Ende der Arbeiten                                                                             |
@@ -49,6 +49,14 @@ Damit die Tickets immer den gleichen Aufbau haben wurde ein Template erstellt un
 ## 2.4.2 GitHub Repository
 
 Diese Arbeit wird in Markdown geschrieben. Die Files davon werden in einem Git-Repository in GitHub abgelegt.
+
+Diese Arbeit beinhaltet mehrere GitHub Repositories
+
+| **Nummer** | **Name**                                                                                                   | **Beschreibung**                                            |
+| ---------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| 1          | [github.com/Cloud-native-engineering/sem04_docs](https://github.com/Cloud-native-engineering/sem04_docs)   | Dokumenation zur Semesterarbeit                             |
+| 2          | [github.com/Cloud-native-engineering/sem04_setup](https://github.com/Cloud-native-engineering/sem04_setup) | Automation zur bereitstellung des Talos Kubernetes Clusters |
+| 3          | [github.com/Cloud-native-engineering/sem04_setup](https://github.com/Cloud-native-engineering/sem04_setup) | K8s-Manifest (Helm, YAML) für ArgoCD                        |
 
 ## 2.4.3 GitHub Actions
 

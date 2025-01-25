@@ -12,4 +12,4 @@ Während dem Backlog Refinement wurde auf das Backlog geschaut, Ticket erstellt 
 
 ## Anpassungen
 
-In diesem Refinement wurden keine neuen Stories erstellt. Dies liegt daran, dass dies der letzte Sprint dieser Arbeit ist und der Fokus darauf liegt, die bestehenden Aufgaben abzuschließen und das Projekt bestmöglich auf das finale Review vorzubereiten.
+In diesem Refinement wurden keine neuen Stories erstellt. Dies liegt daran, dass dies der letzte Sprint dieser Arbeit ist und der Fokus darauf liegt, die bestehenden Aufgaben abzuschliessen und das Projekt bestmöglich auf das finale Review vorzubereiten.

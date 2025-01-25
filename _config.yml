@@ -8,7 +8,7 @@ url: https://cloud-native-engineering.github.io/sem04_docs
 aux_links:
   Projektplanung: https://itcne23.atlassian.net/jira/software/projects/CNC
 
-footer_content: "Copyright &copy; 2024 Yves Wetter. Veröffentlicht mit einer <a href=\"https://github.com/Cloud-native-engineering/sem04_docs/tree/main/LICENSE.md\">Creative Commons Attribution-ShareAlike 3.0 Switzerland License</a> Lizenz."
+footer_content: "Copyright &copy; 2025 Yves Wetter. Veröffentlicht mit einer <a href=\"https://github.com/Cloud-native-engineering/sem04_docs/tree/main/LICENSE.md\">Creative Commons Attribution-ShareAlike 3.0 Switzerland License</a> Lizenz."
 
 mermaid:
   version: "10.8.0"

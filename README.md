@@ -106,6 +106,6 @@ Dieses Werk ist unter einer [Creative Commons Attribution-ShareAlike 3.0 Switzer
 
 ## Author Information
 
-Diese Arbeit wurde im Jahr 2024 von [Yves Wetter](https://www.linkedin.com/in/yves-w/) erstellt.
+Diese Arbeit wurde im Jahr 2025 von [Yves Wetter](https://www.linkedin.com/in/yves-w/) erstellt.
 
 ![footer.svg](resources/images/footer.svg)

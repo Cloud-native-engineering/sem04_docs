@@ -46,65 +46,55 @@ mindmap
 
 ## Inhaltsverzeichnis
 
-[1. Einleitung](index.md)
-
-[2. Projektorganisation](docs/02_projektorganisation/index.md)
-
-[2.1 Projektmethode](docs/02_projektorganisation/projektmethode.md)
-
-[2.2. Projektorganisation](docs/02_projektorganisation/projektorganisation.md)
-
-[2.3 SWOT Analyse](docs/02_projektorganisation/swot.md)
-
-[2.4 Tools & Software](docs/02_projektorganisation/management.md)
-
-[2.5 GIT Branching Konzept](docs/02_projektorganisation/git_branching_konzept.md)
-
-[2.6 Risikomanagement](docs/02_projektorganisation/risk_management.md)
-
-[2.7 Sprint 01](docs/02_projektorganisation/sprint01/index.md)
-
-[2.7.1 Sprint Planning](docs/02_projektorganisation/sprint01/planning.md)
-
-[2.7.2 Backlog Refinement](docs/02_projektorganisation/sprint01/refinement.md)
-
-[2.7.3 Sprint Review](docs/02_projektorganisation/sprint01/review.md)
-
-[2.7.4 Sprint Retro](docs/02_projektorganisation/sprint01/retro.md)
-
-[2.8 Sprint 02](docs/02_projektorganisation/sprint02/index.md)
-
-[2.8.1 Sprint Planning](docs/02_projektorganisation/sprint02/planning.md)
-
-[2.8.2 Backlog Refinement](docs/02_projektorganisation/sprint02/refinement.md)
-
-[2.8.3 Sprint Review](docs/02_projektorganisation/sprint02/review.md)
-
-[2.8.4 Sprint Retro](docs/02_projektorganisation/sprint02/retro.md)
-
-[2.9 Sprint 03](docs/02_projektorganisation/sprint03/index.md)
-
-[2.9.1 Sprint Planning](docs/02_projektorganisation/sprint03/planning.md)
-
-[2.9.2 Backlog Refinement](docs/02_projektorganisation/sprint03/refinement.md)
-
-[2.9.3 Sprint Review](docs/02_projektorganisation/sprint03/review.md)
-
-[2.9.4 Sprint Retro](docs/02_projektorganisation/sprint03/retro.md)
-
-[3. Service Design](docs/03_service_design/index.md)
-
-[4. Services](docs/04_services/index.md)
-
-[5. Microservices](docs/05_microservices/index.md)
-
-[6. Storage](docs/06_storage/index.md)
-
-[7. Security](docs/07_security/index.md)
-
-[8. Deployment](docs/08_deployment/index.md)
-
-[9. Fazit](docs/09_fazit/index.md)
+- [1. Einleitung](docs/index.md)
+- [2. Projektorganisation](docs/02_projektorganisation/index.md)
+  - [2.1 Projektmethode](docs/02_projektorganisation/01_projektmethode.md)
+  - [2.2 Projektorganisation](docs/02_projektorganisation/02_projektorganisation.md)
+  - [2.3 SWOT Analyse](docs/02_projektorganisation/03_swot.md)
+  - [2.4 Tools & Software](docs/02_projektorganisation/04_tools.md)
+  - [2.5 GIT Branching Konzept](docs/02_projektorganisation/05_git_branching_konzept.md)
+  - [2.6 Risikomanagement](docs/02_projektorganisation/06_risk_management.md)
+  - [2.7 TimeTracking](docs/02_projektorganisation/07_timetracking.md)
+  - [2.8 Sprint 01](docs/02_projektorganisation/08_sprint01/index.md)
+    - [2.8.1 Sprint Planning](docs/02_projektorganisation/08_sprint01/01_planning.md)
+    - [2.8.2 Backlog Refinement](docs/02_projektorganisation/08_sprint01/02_refinement.md)
+    - [2.8.3 Sprint Review](docs/02_projektorganisation/08_sprint01/03_review.md)
+    - [2.8.4 Sprint Retro](docs/02_projektorganisation/08_sprint01/04_retro.md)
+    - [2.8.5 Riskboard Meeting](docs/02_projektorganisation/08_sprint01/05_riskboard.md)
+  - [2.9 Sprint 02](docs/02_projektorganisation/09_sprint02/index.md)
+    - [2.9.1 Sprint Planning](docs/02_projektorganisation/09_sprint02/01_planning.md)
+    - [2.9.2 Backlog Refinement](docs/02_projektorganisation/09_sprint02/02_refinement.md)
+    - [2.9.3 Sprint Review](docs/02_projektorganisation/09_sprint02/03_review.md)
+    - [2.9.4 Sprint Retro](docs/02_projektorganisation/09_sprint02/04_retro.md)
+    - [2.9.5 Riskboard Meeting](docs/02_projektorganisation/09_sprint02/05_riskboard.md)
+  - [2.10 Sprint 03](docs/02_projektorganisation/10_sprint03/index.md)
+    - [2.10.1 Sprint Planning](docs/02_projektorganisation/10_sprint03/01_planning.md)
+    - [2.10.2 Backlog Refinement](docs/02_projektorganisation/10_sprint03/02_refinement.md)
+    - [2.10.3 Sprint Review](docs/02_projektorganisation/10_sprint03/03_review.md)
+    - [2.10.4 Sprint Retro](docs/02_projektorganisation/10_sprint03/04_retro.md)
+    - [2.10.5 Riskboard Meeting](docs/02_projektorganisation/10_sprint03/05_riskboard.md)
+- [3. K8s vs. NAS](docs/03_k8s_vs_nas.md)
+- [4. Service Design](docs/04_service_design/index.md)
+  - [4.1 Anforderungen](docs/04_service_design/01_idea.md)
+  - [4.2 Kubernetes Distribution](docs/04_service_design/02_k8s.md)
+  - [4.3 Distributed Storage Solution](docs/04_service_design/03_dirstibuted_storage.md)
+  - [4.4 GitOps](docs/04_service_design/04_gitops.md)
+  - [4.5 Architektur und Technologie](docs/04_service_design/05_architecture.md)
+  - [4.6 Servicekosten](docs/04_service_design/06_cost.md)
+- [5. Deployment](docs/05_deployment/index.md)
+  - [5.1 Kubernetes](docs/05_deployment/01_k8s.md)
+  - [5.2 ArgoCD](docs/05_deployment/02_argocd.md)
+  - [5.3 Longhorn](docs/05_deployment/03_longhorn.md)
+  - [5.4 Cilium](docs/05_deployment/04_cilium.md)
+  - [5.5 Cert-Manager](docs/05_deployment/05_cert_manager.md)
+  - [5.6 Nextcloud](docs/05_deployment/06_nextcloud.md)
+  - [5.7 Gitea](docs/05_deployment/07_gitea.md)
+- [6. GitOps](docs/06_gitops/index.md)
+  - [6.1 ArgoCD](docs/06_gitops/01_argocd.md)
+  - [6.2 Renovate Bot](docs/06_gitops/02_renovate.md)
+- [7. Integrationstests](docs/07_testing.md)
+- [8. Fazit und Zusammenfassung](docs/08_fazit.md)
+- [9. Literaturverzeichnis](docs/09_REFERENCES.md)
 
 ## Literaturverzeichnis
 
@@ -116,6 +106,6 @@ Dieses Werk ist unter einer [Creative Commons Attribution-ShareAlike 3.0 Switzer
 
 ## Author Information
 
-Diese Arbeit wurde im Jahr 2024 von [Yves Wetter](https://www.linkedin.com/in/yves-w/) erstellt.
+Diese Arbeit wurde im Jahr 2025 von [Yves Wetter](https://www.linkedin.com/in/yves-w/) erstellt.
 
 ![footer.svg](resources/images/footer.svg)

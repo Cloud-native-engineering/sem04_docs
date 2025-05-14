@@ -32,14 +32,3 @@ spec:
   type: documentation
   owner: cloud-native-engineering
   lifecycle: production
----
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: sem04-docs
-spec:
-  type: url
-  system: sem04
-  owner: Yves
-  targets: 
-    - https://cloud-native-engineering.github.io/sem04_docs/catalog-info.yaml

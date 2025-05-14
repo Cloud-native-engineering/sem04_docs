@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sem04-docs
+  title: "Semester thesis 04"
+  description: "Documentation for the project: Can Kubernetes with Distributed Storage Replace a Home NAS?"
+  tags:
+    - kubernetes
+    - documentation
+    - storage
+    - home-nas
+  links:
+    - url: https://cloud-native-engineering.github.io/sem04_docs
+      title: Documentation Site
+    - url: https://github.com/Cloud-native-engineering/sem04_docs
+      title: GitHub Repository
+spec:
+  type: documentation
+  owner: cloud-native-engineering
+  lifecycle: production
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: sem04-docs-site
+  title: "Semester thesis 04 Documentation Site"
+  description: "Published documentation site for Semester thesis 04"
+spec:
+  type: website
+  owner: cloud-native-engineering
+  lifecycle: production
+  system: sem04-docs

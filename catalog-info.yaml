@@ -1,17 +1,4 @@
 apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: sem04
-  title: "Semester thesis 04"
-  description: "Documentation for the project: Can Kubernetes with Distributed Storage Replace a Home NAS?"
-  tags:
-    - kubernetes
-    - documentation
-    - storage
-    - home-nas
-  owner: Yves
----
-apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: sem04-docs

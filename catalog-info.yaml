@@ -17,5 +17,5 @@ metadata:
       title: GitHub Repository
 spec:
   type: documentation
-  owner: cloud-native-engineering
+  owner: Yves
   lifecycle: production

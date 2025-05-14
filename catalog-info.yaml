@@ -9,6 +9,7 @@ metadata:
     - documentation
     - storage
     - home-nas
+  owner: Yves
   links:
     - url: https://cloud-native-engineering.github.io/sem04_docs
       title: Documentation Site
@@ -25,6 +26,7 @@ metadata:
   name: sem04-docs-site
   title: "Semester thesis 04 Documentation Site"
   description: "Published documentation site for Semester thesis 04"
+  owner: Yves
 spec:
   type: website
   owner: cloud-native-engineering

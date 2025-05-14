@@ -22,7 +22,6 @@ metadata:
     - documentation
     - storage
     - home-nas
-  owner: Yves
   links:
     - url: https://cloud-native-engineering.github.io/sem04_docs
       title: Documentation Site
